@@ -11,8 +11,8 @@
 // const yargs=require("yargs");
 // const {argv}=yargs(process.argv);
 
-
 //inquirer is using async await
+
 const inquirer=require("inquirer");
 const printTenMoves=async(PokemonName)=>{
     const response=await fetch(`https://pokeapi.co/api/v2/pokemon/${PokemonName}`);
