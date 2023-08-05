@@ -31,6 +31,21 @@ prompt([{
     printTenMoves(pokemon);
 });
 
+// const server=http.createServer((req,res)=>{
+//     if(req.url==="/")
+//     {
+//         res.writeHead(200,{"Content-Type":"text/html"});
+//         res.end("<h1>Home Page</h1>");
+//     }
+//     else if(req.url==="/PokeApi")
+//     {
+//         res.writeHead(200,{"Content-Type":"application/json"});
+//         res.end(JSON.stringify({message:"Welcome to PokeApi"}));
+//     }
+// });
+// server.listen(7000,()=>{
+//     console.log("Server is listening on port 7000");
+// });
 //try and catch
 
 // try
